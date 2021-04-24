@@ -1,1 +1,10 @@
-<p>major-chords works!</p>
+<ul>
+  <li *ngFor="let chord of chords">
+    <label>{{chord.name}}</label>
+    <ul>
+      <li *ngFor="let note of chord.notes">
+        {{note.name}}
+      </li>
+    </ul>
+  </li>
+</ul>

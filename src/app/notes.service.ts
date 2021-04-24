@@ -7,7 +7,7 @@ import { Note } from './note';
 })
 export class NotesService {
 
-  private readonly NOTES: Note[] = [
+  private readonly notes: Note[] = [
     { index: 0, name: 'C', isNatural: true, isGroupedWithC: true},
     { index: 1, name: 'C#', isNatural: false, isGroupedWithC: true},
     { index: 2, name: 'D', isNatural: true, isGroupedWithC: true},
@@ -19,25 +19,27 @@ export class NotesService {
     { index: 8, name: 'G#', isNatural: false, isGroupedWithC: false},
     { index: 9, name: 'A', isNatural: true, isGroupedWithC: false},
     { index: 10, name: 'A#', isNatural: false, isGroupedWithC: false},
-    { index: 11, name: 'B', isNatural: true, isGroupedWithC: false},
+    { index: 11, name: 'B', isNatural: true, isGroupedWithC: false}
   ]
+
+  public readonly numberOfNotes: number = 12;
 
   constructor() { 
   }
 
+  getNote(index: number): Note {
+    while (index >= this.numberOfNotes) {
+      index = index - this.numberOfNotes;
+    }
+
+    return this.notes[index];
+  }
+
   getNoteIndex(note: Note): number {
-    return this.NOTES.indexOf(note);
+    return this.notes.indexOf(note);
   }
 
   getNotes(): Observable<Note[]> {
-    return of(this.NOTES);
-  }
-
-  getNote(index: number): Note {
-    while (index >= this.NOTES.length) {
-      index = index - this.NOTES.length;
-    }
-
-    return this.NOTES[index];
+    return of(this.notes);
   }
 }
