@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
-import { MajorChordsComponent } from './major-chords/major-chords.component'
-import { MinorChordsComponent } from './minor-chords/minor-chords.component'
+import { ChordsComponent } from './chords/chords.component';
 
 const routes: Routes = [
-  { path: 'major', component: MajorChordsComponent },
-  { path: 'minor', component: MinorChordsComponent },
+  { path: ':chord-shape', component: ChordsComponent },
   { path: '',   redirectTo: '/major', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];

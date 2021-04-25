@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MajorChordsComponent } from './major-chords.component';
+import { ChordsComponent } from './chords.component';
 
-describe('MajorChordsComponent', () => {
-  let component: MajorChordsComponent;
-  let fixture: ComponentFixture<MajorChordsComponent>;
+describe('ChordsComponent', () => {
+  let component: ChordsComponent;
+  let fixture: ComponentFixture<ChordsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MajorChordsComponent ]
+      declarations: [ ChordsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MajorChordsComponent);
+    fixture = TestBed.createComponent(ChordsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

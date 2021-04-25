@@ -3,16 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MajorChordsComponent } from './major-chords/major-chords.component';
-import { MinorChordsComponent } from './minor-chords/minor-chords.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ChordShapeSelectionComponent } from './chord-shape-selection/chord-shape-selection.component';
+import { ChordsComponent } from './chords/chords.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MajorChordsComponent,
-    MinorChordsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ChordShapeSelectionComponent,
+    ChordsComponent
   ],
   imports: [
     BrowserModule,
@@ -21,4 +21,4 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { };
