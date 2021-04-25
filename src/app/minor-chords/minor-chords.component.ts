@@ -25,7 +25,7 @@ export class MinorChordsComponent implements OnInit {
       chords[index] = this.getChord(this.notesService.getNote(index));      
     }
 
-    return chords;
+    return chords.sort((a, b) => a.name > b.name ? 1 : a.name === b.name ? 0 : -1);
   }
 
   getChord(rootNote: Note): Chord {
