@@ -1,0 +1,35 @@
+.key.nonnatural::after {
+  background: #000;
+  border-radius: 0 0 4px 4px;
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: -8px;
+  width: 16px;
+  height: 64px;
+}
+
+.key.nonnatural {
+  margin: 0;
+  width: 0;
+  z-index: 1;
+}
+
+.key {
+  background: #fff;
+  border-radius: 0 0 3px 3px;
+  float: left;
+  height: 88px;
+  margin: 0 2px 2px 0;
+  position: relative;
+  width: 24px;
+}
+
+.keys {
+  background: #000;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+  padding: 2px 0 0 2px;
+  width: 182px;
+}
