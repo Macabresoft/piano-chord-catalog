@@ -1,0 +1,17 @@
+.chords {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.chord {
+  background-color: #222;
+  border-radius: 6px;
+  margin: 4px;
+  padding: 6px;
+}
+
+.chord-title {
+  height: 24px;
+  margin: 8px;
+}

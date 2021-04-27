@@ -1,12 +1,31 @@
-<div class="key"></div>
-<div class="key nonnatural"></div>
-<div class="key"></div>
-<div class="key nonnatural"></div>
-<div class="key"></div>
-<div class="key"></div>
-<div class="key nonnatural"></div>
-<div class="key"></div>
-<div class="key nonnatural"></div>
-<div class="key"></div>
-<div class="key nonnatural"></div>
-<div class="key"></div>
+<div *ngIf="!useAlternateLayout; then standardLayout else alternateLayout"></div>
+
+<ng-template #standardLayout>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+</ng-template>
+
+<ng-template #alternateLayout>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+  <div class="key nonnatural"></div>
+  <div class="key"></div>
+</ng-template>

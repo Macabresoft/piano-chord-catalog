@@ -1,10 +1,12 @@
-<ul>
-  <li *ngFor="let chord of chords">
-    <label>{{chord.name}}</label>
-    <ul>
+<div class="chords center">
+  <div class="chord" *ngFor="let chord of chords">
+    <h3 class="chord-title center">{{chord.name}}</h3>
+  
+    <app-piano [chord]="chord"></app-piano>
+    <!-- <ul>
       <li *ngFor="let note of chord.notes">
         {{note.name}}
       </li>
-    </ul>
-  </li>
-</ul>
+    </ul> -->
+  </div>
+</div>
