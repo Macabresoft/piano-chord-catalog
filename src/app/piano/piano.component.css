@@ -10,10 +10,18 @@
   height: 64px;
 }
 
+.key.nonnatural.highlighted::after {
+  background: #2c2;
+}
+
 .key.nonnatural {
   margin: 0;
   width: 0;
   z-index: 1;
+}
+
+.key.highlighted {
+  background: #2e2;
 }
 
 .key {

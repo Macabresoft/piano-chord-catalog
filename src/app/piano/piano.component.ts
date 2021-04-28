@@ -1,3 +1,4 @@
+import { templateJitUrl } from '@angular/compiler';
 import { Component, OnInit, Input } from '@angular/core';
 import { Chord } from '../chord';
 
@@ -18,5 +19,9 @@ export class PianoComponent implements OnInit {
     if (this.chord && this.chord.notes[0]) {
       this.useAlternateLayout = !this.chord.notes[0].isGroupedWithC;
     }
+  }
+
+  hasNote(index: number) : boolean {
+    return this.chord.notes.some(x => x.index === index);
   }
 }
