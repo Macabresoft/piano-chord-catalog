@@ -1,17 +1,19 @@
 .key.nonnatural::after {
-  background: #000;
+  background: #111;
   border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
   content: '';
   display: block;
   position: absolute;
-  top: -2px;
   left: -9px;
   width: 16px;
   height: 64px;
 }
 
 .key.nonnatural.highlighted::after {
-  background: #2c2;
+  background: #634960;
 }
 
 .key.nonnatural {
@@ -21,11 +23,11 @@
 }
 
 .key.highlighted {
-  background: #2e2;
+  background: #634960;
 }
 
 .key {
-  background: #fff;
+  background: #E3DAC9;
   border-radius: 0 0 3px 3px;
   float: left;
   height: 88px;
