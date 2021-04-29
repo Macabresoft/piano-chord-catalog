@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
 import { Note } from './note';
 
 @Injectable({
@@ -42,7 +41,7 @@ export class NotesService {
     return this.notes.indexOf(note);
   }
 
-  getNotes(): Observable<Note[]> {
-    return of(this.notes);
+  getNotes(): Note[] {
+    return this.notes;
   }
 }

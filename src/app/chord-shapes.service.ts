@@ -5,7 +5,7 @@ import { ChordShape } from './chord-shape';
 @Injectable({
   providedIn: 'root'
 })
-export class ChordsService {
+export class ChordShapesService {
 
   private readonly chordShapes: ChordShape[] = [
     { name: 'Major', route: 'major', noteIndexes: [0, 4, 7] },

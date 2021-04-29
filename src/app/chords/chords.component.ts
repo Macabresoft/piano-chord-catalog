@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Chord } from '../chord';
+import { Chord } from './chord';
 import { ChordShape } from '../chord-shape';
-import { ChordsService } from '../chords.service';
+import { ChordShapesService } from '../chord-shapes.service';
 import { Note } from '../note';
 import { NotesService } from '../notes.service';
 
@@ -17,7 +17,7 @@ export class ChordsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private chordsService: ChordsService,
+    private chordsService: ChordShapesService,
     private notesService: NotesService) { 
       this.route.paramMap.subscribe(() => this.chords = this.getChords());
     }

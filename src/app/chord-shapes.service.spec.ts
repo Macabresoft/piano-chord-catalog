@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ChordsService } from './chords.service';
+import { ChordShapesService } from './chord-shapes.service';
 
 describe('ChordsService', () => {
-  let service: ChordsService;
+  let service: ChordShapesService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ChordsService);
+    service = TestBed.inject(ChordShapesService);
   });
 
   it('should be created', () => {
