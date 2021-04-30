@@ -1,24 +1,24 @@
+.active.button {
+  background: #634960;
+  color: #E3DAC9;
+}
 .button {
   background: #E3DAC9;
   border-radius: 5px;
-  border: 1px solid #80746C;
   display: inline-block;
   cursor: pointer;
-  color: #402C37;
+  color: #634960;
   padding: 6px 12px;
-  margin-right: 12px;
+  margin: 6px 12px 6px 0px;
   text-decoration: none;
   outline: 0;
+  -webkit-text-shadow: 0 0 2px #1115;
+  -moz-text-shadow: 0 0 2px #1115;
+  text-shadow: 0 0 2px #1115;
 }
-.activebutton {
-  background: #634960;
-  border-radius: 5px;
-  border: 1px solid #402C37;
-  display: inline-block;
-  cursor: pointer;
-  color: #E3DAC9;
-  padding: 6px 12px;
-  margin-right: 12px;
-  text-decoration: none;
-  outline: 0;
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

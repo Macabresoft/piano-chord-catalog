@@ -34,6 +34,18 @@ export class PianoComponent implements OnInit {
           }
         });
       }
+
+      if (!this.chord.notes[0].isGroupedWithC) {
+        notes.filter(note => note.isGroupedWithC).forEach(() => {
+          this.keys.shift();
+        });
+      }
+
+      if (this.chord.notes[this.chord.notes.length - 1].isGroupedWithC) {
+        notes.filter(note => !note.isGroupedWithC).forEach(() => {
+          this.keys.pop();
+        });
+      }
     }
   }
 
