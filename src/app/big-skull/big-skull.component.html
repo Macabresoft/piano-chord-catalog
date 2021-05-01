@@ -1,0 +1,7 @@
+<div class="big-skull">
+  <div class="card">
+    <div class="pixel-line center" *ngFor="let line of bigSkull">
+      <div class="pixel" *ngFor="let character of line | split line" [ngClass]="{filled: character === '#'}"></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.pixel.filled {
+  background-color: #E3DAC9;
+}
+
+.pixel {
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.pixel-line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.big-skull {
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}

@@ -1,8 +1,6 @@
 .key.nonnatural::after {
   background: #111;
   border-radius: 0 0 4px 4px;
-  -webkit-box-shadow: 0 0 2px #111;
-  -moz-box-shadow: 0 0 2px #111;
   box-shadow: 0 0 2px #111;
   content: '';
   display: block;

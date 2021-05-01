@@ -3,18 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ChordShapeSelectionComponent } from './chord-shape-selection/chord-shape-selection.component';
+import { BigSkullComponent } from './big-skull/big-skull.component';
 import { ChordsComponent } from './chords/chords.component';
-import { PianoComponent } from './chords/piano/piano.component';
+import { ChordShapeSelectionComponent } from './chord-shape-selection/chord-shape-selection.component';
 import { KeyComponent } from './chords/piano/key/key.component';
+import { PianoComponent } from './chords/piano/piano.component';
+import { SplitPipe } from './split.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChordShapeSelectionComponent,
+    BigSkullComponent,
     ChordsComponent,
+    ChordShapeSelectionComponent,
+    KeyComponent,
     PianoComponent,
-    KeyComponent
+    SplitPipe
   ],
   imports: [
     BrowserModule,

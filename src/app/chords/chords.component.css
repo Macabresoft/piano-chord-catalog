@@ -5,21 +5,9 @@
   margin-top: 8px;
 }
 
-.chord {
-  background-color: #333;
-  border-radius: 8px;
-  margin: 8px;
-  padding: 8px;
-  -webkit-text-shadow: 0 0 2px #000;
-  -moz-text-shadow: 0 0 2px #000;
-  text-shadow: 0 0 2px #000;
-}
-
 .chord-title {
   color: #C8AB37;
   font-weight: normal;
-  -webkit-text-shadow: 0 0 2px #111;
-  -moz-text-shadow: 0 0 2px #111;
   text-shadow: 0 0 2px #111;
   height: 24px;
   margin: 4px 8px 8px 8px;

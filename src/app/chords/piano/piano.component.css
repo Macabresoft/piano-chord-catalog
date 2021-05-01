@@ -1,6 +1,4 @@
 .piano {
-  -webkit-box-shadow: 0 0 2px #111;
-  -moz-box-shadow: 0 0 2px #111;
   box-shadow: 0 0 2px #111;
   border-radius: 0 0 3px 3px;
 }
