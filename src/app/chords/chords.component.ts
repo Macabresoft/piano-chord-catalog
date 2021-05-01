@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { Chord } from './chord.interface';
 import { ChordShape } from '../chord-shape.interface';
 import { ChordShapesService } from '../chord-shapes.service';
@@ -17,6 +17,7 @@ export class ChordsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private chordsService: ChordShapesService,
     private notesService: NotesService) { 
       this.route.paramMap.subscribe(() => this.chords = this.getChords());
@@ -40,7 +41,7 @@ export class ChordsComponent implements OnInit {
       return chords.sort((a, b) => a.name > b.name ? 1 : a.name === b.name ? 0 : -1);
     }
     else {
-      return [];
+      this.router.navigate(['..'], {relativeTo: this.route});
     }
   }
 

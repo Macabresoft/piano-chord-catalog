@@ -9,8 +9,32 @@
   margin-right: auto;
 }
 
+.github {
+  margin-left: 8px;
+  color: #634960;
+  -webkit-text-shadow: 0 0 2px #000;
+  -moz-text-shadow: 0 0 2px #000;
+  text-shadow: 0 0 2px #000;
+  margin-bottom: 8px;
+}
+
 h1 {    
   color: #C8AB37;
+  -webkit-text-shadow: 0 0 2px #000;
+  -moz-text-shadow: 0 0 2px #000;
+  text-shadow: 0 0 2px #000;
+  margin-bottom: 4px;
+}
+
+footer > a {
+  margin-left: 8px;
+  color: #634960;
+}
+
+footer {
+  font-size: small;
+  height: fit-content;
+  margin-top: 24px;
   -webkit-text-shadow: 0 0 2px #000;
   -moz-text-shadow: 0 0 2px #000;
   text-shadow: 0 0 2px #000;
