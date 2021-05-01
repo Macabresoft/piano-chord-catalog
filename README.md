@@ -1,27 +1,11 @@
-# ChordCatalog
+# Piano Chord Catalog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+A piano chord catalog that uses integer notation and math to display finger positions for various chords. The initial focus was common triad chords, but more may come.
 
-## Development server
+## Suggestions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If you really want more chord shadpes added, open an issue on the github and specify the nae of the chord shape as well as the integer notation for the chord. Or ask @macabresoft on twitter very nicely.
 
-## Code scaffolding
+## Why?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This was a project to learn a little bit of angular. Sure, you could do something lame like read a book or go to some other website, or you could come look at piano chords on this beautiful web app.
