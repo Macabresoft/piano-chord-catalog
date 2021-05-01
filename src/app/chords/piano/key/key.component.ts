@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { PianoKey } from './piano-key';
+import { PianoKey } from './piano-key.interface';
 
 @Component({
   selector: 'app-key',

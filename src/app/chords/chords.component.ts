@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Chord } from './chord';
-import { ChordShape } from '../chord-shape';
+import { Chord } from './chord.interface';
+import { ChordShape } from '../chord-shape.interface';
 import { ChordShapesService } from '../chord-shapes.service';
-import { Note } from '../note';
+import { Note } from '../note.interface';
 import { NotesService } from '../notes.service';
 
 @Component({

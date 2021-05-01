@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { ChordShape } from './chord-shape';
+import { ChordShape } from './chord-shape.interface';
 
 @Injectable({
   providedIn: 'root'

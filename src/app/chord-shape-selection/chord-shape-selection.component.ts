@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ChordShape } from '../chord-shape';
+import { ChordShape } from '../chord-shape.interface';
 import { ChordShapesService } from '../chord-shapes.service';
 
 @Component({

@@ -1,6 +1,6 @@
 <div class="chords center">
   <div class="chord" *ngFor="let chord of chords">
     <h3 class="chord-title center">{{chord.name}}</h3>
-    <app-piano [chord]="chord"></app-piano>
+    <app-piano [highlightedNotes]="chord.notes"></app-piano>
   </div>
 </div>
