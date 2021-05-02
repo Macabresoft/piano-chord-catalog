@@ -12,7 +12,7 @@ This was a project to learn a little bit of angular. Sure, you could do somethin
 
 ## Deployment
 
-1. Build using Angular: `ng build --prod --output-path site --base-href /piano-chord-catalog/`
-2. In `/site/` copy `index.html` and rename the copy `404.html` for compatibility with GitHub Pages
+1. Build using Angular: `ng build --prod --output-path docs --base-href /piano-chord-catalog/`
+2. In `/docs/` copy `index.html` and rename the copy `404.html` for compatibility with GitHub Pages
 
 More on deploying Angular apps can be found [here](https://angular.io/guide/deployment).
