@@ -5,9 +5,9 @@
   content: '';
   display: block;
   position: absolute;
-  left: -13px;
-  width: 24px;
-  height: 72px;
+  left: -10px;
+  width: 18px;
+  height: 64px;
 }
 
 .key.nonnatural.highlighted::after {
@@ -42,8 +42,8 @@
   background: #E3DAC9;
   border-radius: 0 0 3px 3px;
   float: left;
-  height: 96px;
+  height: 88px;
   margin: 0 2px 2px 0;
   position: relative;
-  width: 32px;
+  width: 26px;
 }

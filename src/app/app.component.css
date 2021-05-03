@@ -23,6 +23,15 @@
   padding: 8px;
 }
 
+.card > h3 {
+  color: #C8AB37;
+  font-weight: normal;
+  text-shadow: 0 0 2px #111;
+  height: 24px;
+  margin: 4px 8px 8px 8px;
+  font-size: medium;
+}
+
 h1 {    
   color: #C8AB37;
   text-shadow: 0 0 2px #000;
