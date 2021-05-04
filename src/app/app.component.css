@@ -23,7 +23,7 @@
   padding: 8px;
 }
 
-.card > h3 {
+.card h3 {
   color: #C8AB37;
   font-weight: normal;
   text-shadow: 0 0 2px #111;
@@ -51,4 +51,29 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.icon {
+  display: inline-flex;
+  align-self: center;
+}
+
+.icon svg {
+  height: 3em;
+  width: 3em;
+}
+
+.icon.baseline svg {
+  top: 0.750em;
+  position: relative;
+}
+
+.skull path {
+  fill: #E3DAC9;
+}
+
+.skull {
+  -webkit-filter: drop-shadow(0 0 2px #000); 
+  filter: drop-shadow(0 0 2px #000);
+  margin-right: 4px; 
 }
