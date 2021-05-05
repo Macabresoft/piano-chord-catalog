@@ -2,5 +2,21 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 8px;
+  margin-top: 0.5rem;
+}
+
+.card {
+  background-color: #333;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.card h3 {
+  color: #C8AB37;
+  font-weight: normal;
+  text-shadow: 0 0 0.25rem #111;
+  height: 1.5rem;
+  margin: 0.25rem 0.5rem 0.5rem 0.5rem;
+  font-size: 1rem;
 }

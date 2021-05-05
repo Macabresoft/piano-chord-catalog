@@ -10,44 +10,29 @@
 }
 
 .github {
-  margin-left: 8px;
+  margin-left: 0.5rem;
   color: #856F7C;
-  text-shadow: 0 0 2px #000;
-  margin-bottom: 8px;
-}
-
-.card {
-  background-color: #333;
-  border-radius: 8px;
-  margin: 8px;
-  padding: 8px;
-}
-
-.card h3 {
-  color: #C8AB37;
-  font-weight: normal;
-  text-shadow: 0 0 2px #111;
-  height: 24px;
-  margin: 4px 8px 8px 8px;
-  font-size: medium;
+  text-shadow: 0 0 0.25rem #000;
+  margin-bottom: 0.5rem;
 }
 
 h1 {    
   color: #C8AB37;
-  text-shadow: 0 0 2px #000;
-  margin-bottom: 4px;
+  text-shadow: 0 0 0.25rem #000;
+  margin-bottom: 0.25rem;
+  font-size: 2rem;
 }
 
-footer > a {
-  margin-left: 8px;
+footer a {
+  margin-left: 0.5rem;
   color: #856F7C;
 }
 
 footer {
-  font-size: small;
+  font-size: 0.75rem;
   height: fit-content;
-  margin-top: 24px;
-  text-shadow: 0 0 2px #000;
+  margin-top: 1.5rem;
+  text-shadow: 0 0 0.25rem #000;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -59,21 +44,12 @@ footer {
 }
 
 .icon svg {
-  height: 3em;
-  width: 3em;
-}
-
-.icon.baseline svg {
-  top: 0.750em;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem; 
+  top: 1rem;
   position: relative;
-}
-
-.skull path {
   fill: #E3DAC9;
-}
-
-.skull {
-  -webkit-filter: drop-shadow(0 0 2px #000); 
-  filter: drop-shadow(0 0 2px #000);
-  margin-right: 4px; 
+  -webkit-filter: drop-shadow(0 0 0.25rem #000); 
+  filter: drop-shadow(0 0 0.25rem #000);
 }

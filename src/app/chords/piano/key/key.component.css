@@ -1,22 +1,22 @@
 .key.nonnatural::after {
   background: #111;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 0 2px #111;
+  border-radius: 0 0 0.25rem 0.25rem;
+  box-shadow: 0 0 0.25rem #111;
   content: '';
   display: block;
   position: absolute;
-  left: -10px;
-  width: 18px;
-  height: 64px;
+  left: -0.725rem;
+  width: 1.375rem;
+  height: 4rem;
 }
 
 .key.nonnatural.highlighted::after {
   background: repeating-linear-gradient(
     -45deg,
     #11111155,
-    #11111155 16px,
-    transparent 16px,
-    transparent 32px
+    #11111155 1rem,
+    transparent 1rem,
+    transparent 2rem
   ),
   #634960;
 }
@@ -31,19 +31,19 @@
   background: repeating-linear-gradient(
     -45deg,
     #E3DAC944,
-    #E3DAC944 16px,
-    transparent 16px,
-    transparent 32px
+    #E3DAC944 1rem,
+    transparent 1rem,
+    transparent 2rem
   ),
   #634960;
 }
 
 .key {
   background: #E3DAC9;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 0.25rem 0.25rem;
   float: left;
-  height: 88px;
-  margin: 0 2px 2px 0;
+  height: 5.5rem;
+  margin: 0 0.125rem 0.125rem 0;
   position: relative;
-  width: 26px;
+  width: 2rem;
 }
