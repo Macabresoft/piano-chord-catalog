@@ -1,4 +1,4 @@
-v# Piano Chord Catalog
+# Piano Chord Catalog
 
 A piano chord catalog that uses integer notation and math to display finger positions for various chords. The initial focus was common triad chords, but more may come.
 
