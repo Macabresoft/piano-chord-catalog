@@ -1,5 +1,5 @@
 .pixel.filled {
-  background-color: #E3DAC9;
+  background-color: var(--foreground-color);
 }
 
 .pixel {

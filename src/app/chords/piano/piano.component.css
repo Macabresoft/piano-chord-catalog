@@ -1,4 +1,4 @@
 .piano {
-  box-shadow: 0 0 0.25rem #111;
+  box-shadow: 0 0 0.25rem var(--shadow-color);
   border-radius: 0 0 0.25rem 0.25rem;
 }

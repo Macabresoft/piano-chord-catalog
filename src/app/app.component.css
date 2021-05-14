@@ -11,28 +11,28 @@
 
 .github {
   margin-left: 0.5rem;
-  color: #856F7C;
-  text-shadow: 0 0 0.25rem #000;
+  color: var(--accent-light-color);
+  text-shadow: 0 0 0.25rem var(--shadow-color);
   margin-bottom: 0.5rem;
 }
 
 h1 {    
-  color: #C8AB37;
-  text-shadow: 0 0 0.25rem #000;
+  color: var(--highlight-color);
+  text-shadow: 0 0 0.25rem var(--shadow-color);
   margin-bottom: 0.25rem;
   font-size: 2rem;
 }
 
 footer a {
   margin-left: 0.5rem;
-  color: #856F7C;
+  color: var(--accent-light-color);
 }
 
 footer {
   font-size: 0.75rem;
   height: fit-content;
   margin-top: 1.5rem;
-  text-shadow: 0 0 0.25rem #000;
+  text-shadow: 0 0 0.25rem var(--shadow-color);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -49,7 +49,7 @@ footer {
   margin-right: 1rem; 
   top: 1rem;
   position: relative;
-  fill: #E3DAC9;
-  -webkit-filter: drop-shadow(0 0 0.25rem #000); 
-  filter: drop-shadow(0 0 0.25rem #000);
+  fill: var(--foreground-color);
+  -webkit-filter: drop-shadow(0 0 0.25rem var(--shadow-color)); 
+  filter: drop-shadow(0 0 0.25rem var(--shadow-color));
 }

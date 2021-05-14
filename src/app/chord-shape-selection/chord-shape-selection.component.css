@@ -1,18 +1,19 @@
 .active.button {
-  background: #634960;
-  color: #E3DAC9;
+  background: var(--accent-color);
+  color: var(--foreground-color);
+  text-shadow: 0 0 0.25rem var(--shadow-color);
 }
+
 .button {
-  background: #E3DAC9;
+  background: var(--foreground-color);
   border-radius: 1rem;
   display: inline-block;
   cursor: pointer;
-  color: #634960;
+  color: var(--accent-color);
   padding: 0.5rem 1rem;
   margin: 0.5rem 0.75rem 0.5rem 0;
   text-decoration: none;
   outline: 0;
-  text-shadow: 0 0 0.25rem #1115;
   font-size: 1rem;
 }
 
