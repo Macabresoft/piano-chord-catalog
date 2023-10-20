@@ -60,20 +60,24 @@
                   "maximumError": "10kb"
                 }
               ]
-            }
+            },
+            "development": {}
           },
-          "defaultConfiguration": ""
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "chord-catalog:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "chord-catalog:build:production"
+            },
+            "development": {
+              "browserTarget": "chord-catalog:build:development"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -114,14 +118,17 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "chord-catalog:serve"
+            "protractorConfig": "e2e/protractor.conf.js"
           },
           "configurations": {
             "production": {
               "devServerTarget": "chord-catalog:serve:production"
+            },
+            "development": {
+              "devServerTarget": "chord-catalog:serve:development"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         }
       }
     }
