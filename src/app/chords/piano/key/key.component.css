@@ -1,7 +1,6 @@
 .key.nonnatural::after {
   background: var(--background-color);
   border-radius: 0 0 0.25rem 0.25rem;
-  box-shadow: 0 0 0.25rem var(--shadow-color);
   content: '';
   display: block;
   position: absolute;
@@ -43,7 +42,8 @@
   border-radius: 0 0 0.25rem 0.25rem;
   float: left;
   height: 5rem;
-  margin: 0 0.125rem 0.125rem 0;
+  margin-left: 1px;
+  margin-right: 1px;
   position: relative;
   width: 1.5rem;
 }
