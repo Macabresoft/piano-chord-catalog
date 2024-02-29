@@ -1,6 +1,6 @@
 {
-  "name": "chord-catalog",
-  "short_name": "chord-catalog",
+  "name": "Piano Chord Catalog by Macabresoft",
+  "short_name": "Piano Chord Catalog",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
@@ -54,6 +54,12 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-monochrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
     }
   ]
 }

@@ -68,3 +68,21 @@ footer {
   -webkit-filter: drop-shadow(0 0 0.25rem var(--shadow-color)); 
   filter: drop-shadow(0 0 0.25rem var(--shadow-color));
 }
+
+@media all and (display-mode: standalone) {
+  .github {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  footer a {
+    display: none;
+  }
+
+  footer label {
+    display: none;
+  }
+}
