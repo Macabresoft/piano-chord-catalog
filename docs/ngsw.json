@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1709167013452,
+  "index": "/piano-chord-catalog/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/piano-chord-catalog/favicon.ico",
+        "/piano-chord-catalog/index.html",
+        "/piano-chord-catalog/main.a1b6184621f1f141.js",
+        "/piano-chord-catalog/manifest.webmanifest",
+        "/piano-chord-catalog/polyfills.a1a7527635d31f86.js",
+        "/piano-chord-catalog/runtime.2f31ae1faa42d142.js",
+        "/piano-chord-catalog/styles.6b585ddaa18016e5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/piano-chord-catalog/assets/icons/icon-128x128.png",
+        "/piano-chord-catalog/assets/icons/icon-144x144.png",
+        "/piano-chord-catalog/assets/icons/icon-152x152.png",
+        "/piano-chord-catalog/assets/icons/icon-192x192.png",
+        "/piano-chord-catalog/assets/icons/icon-384x384.png",
+        "/piano-chord-catalog/assets/icons/icon-512x512.png",
+        "/piano-chord-catalog/assets/icons/icon-72x72.png",
+        "/piano-chord-catalog/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/piano-chord-catalog/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/piano-chord-catalog/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/piano-chord-catalog/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/piano-chord-catalog/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/piano-chord-catalog/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/piano-chord-catalog/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/piano-chord-catalog/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/piano-chord-catalog/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/piano-chord-catalog/favicon.ico": "e61d99fde460daf4856aadc23401032361bfc348",
+    "/piano-chord-catalog/index.html": "a6fcb86b3e4c2a10989c1b0f85314f53e116801f",
+    "/piano-chord-catalog/main.a1b6184621f1f141.js": "b2ca510884518e591f06f8ebba86fdcb38df4377",
+    "/piano-chord-catalog/manifest.webmanifest": "85006579c6b2624c802970b4612913c9de3e0f16",
+    "/piano-chord-catalog/polyfills.a1a7527635d31f86.js": "96c24d180fff3a77d8996590c1791f4f9e7d7100",
+    "/piano-chord-catalog/runtime.2f31ae1faa42d142.js": "3a5c9001d5815c6c62a05966da12ad21f7c08897",
+    "/piano-chord-catalog/styles.6b585ddaa18016e5.css": "03c1a8cc2a2e695d08e3cbeb89a0f784e94dc16f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
