@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1709167013452,
+  "timestamp": 1709247841043,
   "index": "/piano-chord-catalog/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/piano-chord-catalog/favicon.ico",
         "/piano-chord-catalog/index.html",
-        "/piano-chord-catalog/main.a1b6184621f1f141.js",
+        "/piano-chord-catalog/main.476f43eb5217cddc.js",
         "/piano-chord-catalog/manifest.webmanifest",
         "/piano-chord-catalog/polyfills.a1a7527635d31f86.js",
         "/piano-chord-catalog/runtime.2f31ae1faa42d142.js",
-        "/piano-chord-catalog/styles.6b585ddaa18016e5.css"
+        "/piano-chord-catalog/styles.8de55a7711b3180a.css"
       ],
       "patterns": []
     },
@@ -36,28 +36,30 @@
         "/piano-chord-catalog/assets/icons/icon-384x384.png",
         "/piano-chord-catalog/assets/icons/icon-512x512.png",
         "/piano-chord-catalog/assets/icons/icon-72x72.png",
-        "/piano-chord-catalog/assets/icons/icon-96x96.png"
+        "/piano-chord-catalog/assets/icons/icon-96x96.png",
+        "/piano-chord-catalog/assets/icons/icon-monochrome-512x512.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/piano-chord-catalog/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "/piano-chord-catalog/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "/piano-chord-catalog/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "/piano-chord-catalog/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "/piano-chord-catalog/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/piano-chord-catalog/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/piano-chord-catalog/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "/piano-chord-catalog/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/piano-chord-catalog/favicon.ico": "e61d99fde460daf4856aadc23401032361bfc348",
-    "/piano-chord-catalog/index.html": "a6fcb86b3e4c2a10989c1b0f85314f53e116801f",
-    "/piano-chord-catalog/main.a1b6184621f1f141.js": "b2ca510884518e591f06f8ebba86fdcb38df4377",
-    "/piano-chord-catalog/manifest.webmanifest": "85006579c6b2624c802970b4612913c9de3e0f16",
+    "/piano-chord-catalog/assets/icons/icon-128x128.png": "cabe8eb0484d2868bc14c947bf27fa4ca756ccd3",
+    "/piano-chord-catalog/assets/icons/icon-144x144.png": "17216f3c2fdd6c88053e13c9c79129b2ec61a27f",
+    "/piano-chord-catalog/assets/icons/icon-152x152.png": "864717ee59726c026091d4adf035589e3221013a",
+    "/piano-chord-catalog/assets/icons/icon-192x192.png": "202182cc24bcc9016e10085d46ad0298cfe11ca2",
+    "/piano-chord-catalog/assets/icons/icon-384x384.png": "e5885250272f9faf33477da8fac0d2753bdf8fcd",
+    "/piano-chord-catalog/assets/icons/icon-512x512.png": "cf4e693bf41d154378c475549a5e0df32b132176",
+    "/piano-chord-catalog/assets/icons/icon-72x72.png": "52c3e2308be02ad7d2810a344137e40c0f1f8c04",
+    "/piano-chord-catalog/assets/icons/icon-96x96.png": "e511f7cef2b63bb8e5803cc6a2482815be642564",
+    "/piano-chord-catalog/assets/icons/icon-monochrome-512x512.png": "9ac008d90b284550d999ec2205a6c1eb76ffad0a",
+    "/piano-chord-catalog/favicon.ico": "644b4b0a98ee0a4359be3dc0ea51629ab211e3f2",
+    "/piano-chord-catalog/index.html": "30068668b45d650fc70f6588342a3eb0fd8cc047",
+    "/piano-chord-catalog/main.476f43eb5217cddc.js": "7c871d81f39a5d8848b788f02d1173b6df925092",
+    "/piano-chord-catalog/manifest.webmanifest": "8fc05bd198933882de690aa042cc09ab1c307c79",
     "/piano-chord-catalog/polyfills.a1a7527635d31f86.js": "96c24d180fff3a77d8996590c1791f4f9e7d7100",
     "/piano-chord-catalog/runtime.2f31ae1faa42d142.js": "3a5c9001d5815c6c62a05966da12ad21f7c08897",
-    "/piano-chord-catalog/styles.6b585ddaa18016e5.css": "03c1a8cc2a2e695d08e3cbeb89a0f784e94dc16f"
+    "/piano-chord-catalog/styles.8de55a7711b3180a.css": "b7d5d491741a1330fd40d799a7721c6bcb7406d3"
   },
   "navigationUrls": [
     {
