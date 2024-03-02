@@ -70,6 +70,23 @@ footer {
 }
 
 @media all and (display-mode: standalone) {
+  h1 {    
+    font-size: 1rem;
+  }
+
+  .icon svg {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem; 
+    top: 0.25rem;
+  }  
+
+  .root {
+    max-width: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
   .github {
     display: none;
   }

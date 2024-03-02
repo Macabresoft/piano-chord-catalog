@@ -15,10 +15,32 @@
   text-decoration: none;
   outline: 0;
   font-size: 1rem;
+  z-index: 0;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+@media all and (display-mode: standalone) {
+  .navbar {
+    background-color: var(--background-title-color);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .button {
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    font-size: 0.75rem;
+  }
 }
