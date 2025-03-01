@@ -74,10 +74,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "chord-catalog:build:production"
+              "buildTarget": "chord-catalog:build:production"
             },
             "development": {
-              "browserTarget": "chord-catalog:build:development"
+              "buildTarget": "chord-catalog:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "chord-catalog:build"
+            "buildTarget": "chord-catalog:build"
           }
         },
         "test": {
