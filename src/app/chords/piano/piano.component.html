@@ -1,3 +1,5 @@
 <div class="center piano">
-  <app-key *ngFor="let key of keys" [key]="key"></app-key>
+  @for (key of keys; track key) {
+    <app-key [key]="key"></app-key>
+  }
 </div>

@@ -1,5 +1,7 @@
 <nav class="center navbar">
-  <a *ngFor="let chordShape of chordShapes" class="button" routerLink="/{{chordShape.route}}" routerLinkActive="active">
-    {{chordShape.name}}
-  </a>
+  @for (chordShape of chordShapes; track chordShape) {
+    <a class="button" routerLink="/{{chordShape.route}}" routerLinkActive="active">
+      {{chordShape.name}}
+    </a>
+  }
 </nav>
