@@ -1,6 +1,6 @@
 {
   "name": "Piano Chord Catalog",
-  "short_name": "Piano Chord Catalog by Macabresoft",
+  "short_name": "Piano Chord Catalog by macabrett",
   "theme_color": "#634960",
   "background_color": "#634960",
   "display": "standalone",
@@ -62,7 +62,7 @@
       "purpose": "monochrome"
     }
   ],
-  "id": "com.macabresoft.www.pianochordcatalog",
+  "id": "com.macabrett.www.pianochordcatalog",
   "description": "A catalog of various basic piano chords.",
   "categories": [
     "music",
