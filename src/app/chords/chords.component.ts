@@ -7,6 +7,7 @@ import { Note } from '../note.interface';
 import { NotesService } from '../notes.service';
 
 @Component({
+  standalone: false,
   selector: 'app-chords',
   templateUrl: './chords.component.html',
   styleUrls: ['../app.component.css', './chords.component.css']

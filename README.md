@@ -13,3 +13,7 @@ This was a project to learn a little bit of angular.
 3. In `/docs/` copy `index.html` and rename the copy `404.html` for compatibility with GitHub Pages: `cp ./docs/index.html ./docs/404.html`
 
 More on deploying Angular apps can be found [here](https://angular.io/guide/deployment).
+
+## Testing
+
+To test, you must first run `ng serve` from a terminal.

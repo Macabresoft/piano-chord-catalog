@@ -3,6 +3,7 @@ import { ChordShape } from '../chord-shape.interface';
 import { ChordShapesService } from '../chord-shapes.service';
 
 @Component({
+  standalone: false,
   selector: 'app-chord-shape-selection',
   templateUrl: './chord-shape-selection.component.html',
   styleUrls: ['../app.component.css', './chord-shape-selection.component.css']

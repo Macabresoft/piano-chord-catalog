@@ -4,6 +4,7 @@ import { NotesService } from '../../notes.service';
 import { PianoKey } from './key/piano-key.interface';
 
 @Component({
+  standalone: false,
   selector: 'app-piano',
   templateUrl: './piano.component.html',
   styleUrls: ['../../app.component.css', './piano.component.css']
