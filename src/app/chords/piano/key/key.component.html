@@ -1,1 +1,5 @@
-<div class="key" [ngClass]="{nonnatural: !key.note.isNatural, highlighted: key.isHighlighted}"></div>
+<div class="key" [ngClass]="{nonnatural: !key.note.isNatural, highlighted: key.isHighlighted}">
+    @if (key.isHighlighted) {
+        <p>{{key.note.name}}</p>
+    }
+</div>
